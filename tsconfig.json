@@ -1,0 +1,14 @@
+{
+  "exclude": ["**/node_modules", "example", "dist", "**/.*/", "__tests__", "__mocks__"],
+  "include": ["**/*.ts", "**/*.tsx"],
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    "noLib": false,
+    "noEmit": false,
+    "sourceMap": false,
+    "strict": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  }
+}
