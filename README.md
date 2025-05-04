@@ -1,6 +1,7 @@
-# @n1ru4l/graphql-codegen-relay-optimizer-plugin [![CircleCI](https://circleci.com/gh/n1ru4l/graphql-codegen-relay-plugins/tree/master.svg?style=svg)](https://circleci.com/gh/n1ru4l/graphql-codegen-relay-plugins/tree/master)
+# graphql-codegen-relay-optimizer-plugin
 
 ## Description
+this is a fork from [@graphcommerce/graphql-codegen-relay-optimizer-plugin](https://www.npmjs.com/package/@graphcommerce/graphql-codegen-relay-optimizer-plugin), which is based on [@n1ru4l](https://www.npmjs.com/package/@n1ru4l/graphql-codegen-relay-plugin)
 
 [GraphQL Codegen Plugin](https://github.com/dotansimha/graphql-code-generator)
 for bringing the benefits of Relay to GraphQL Codegen.
@@ -16,9 +17,9 @@ for bringing the benefits of Relay to GraphQL Codegen.
   - [`@argumentsDefinition`](https://relay.dev/docs/en/graphql-in-relay#argumentdefinitions)
   - [`@arguments`](https://relay.dev/docs/en/graphql-in-relay#arguments)
 
-## Install Instructions [![npm](https://img.shields.io/npm/dm/@n1ru4l/graphql-codegen-relay-optimizer-plugin.svg)](https://www.npmjs.com/package/@n1ru4l/graphql-codegen-relay-optimizer-plugin)
+## Install Instructions
 
-`yarn add -D -E @n1ru4l/graphql-codegen-relay-optimizer-plugin`
+`yarn add -D -E graphql-codegen-relay-optimizer-plugin`
 
 ## Usage Instructions
 
@@ -33,7 +34,7 @@ generates:
     config:
       skipDocumentsValidation: true
     plugins:
-      - '@n1ru4l/graphql-codegen-relay-optimizer-plugin'
+      - 'graphql-codegen-relay-optimizer-plugin'
       - 'typescript'
       - 'typescript-operations'
       - 'typescript-react-apollo'
